@@ -1,0 +1,50 @@
+﻿body {
+
+}
+.navbar-collapse{
+    width: 100%;
+    height: 25px;
+}
+.socials ul{
+    list-style: none;
+    display: flex;
+}
+socials ul li{
+    display: inline;
+    padding: 5px;
+    margin:4px;
+
+}
+.cards{
+    width: 100%;
+    margin: 150px auto 0;
+}
+.card{
+    margin: 10px;
+
+}
+.list {
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px;
+    padding:15px;
+}
+
+.visitor-section {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.visitor-count p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+    .visitor-count p:first-child {
+        margin-bottom: 5px;
+    }
