@@ -9,7 +9,6 @@
 
     <div class="content">
 
-        //carousel 
         <div class="container" >
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
                <div class="carousel-inner">
@@ -32,9 +31,8 @@
               <span class="visually-hidden">Next</span>
             </button>
          </div>
-        </div>
-         
-        // overlay
+              <%--overlay--%>
+
         <div class="overlay">
             <div>
                 <h2>Kenya Red Cross Training Institute</h2>
@@ -45,6 +43,10 @@
                 </div>
             </div>
         </div>
+        
+        </div>
+         
+      
 
         //course
         <div class="courses">
@@ -203,6 +205,14 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+        </div>
+
+        //requests
+        <div class="request">
+            <div><i class='bx bx-headphone'></i></div>
+            <h2>Can't find what you're looking for?</h2>
+            <h4>Let us help you right now!</h4>
+            <button type="submit" class="submit-button">Submit Request</button>
         </div>
 
 

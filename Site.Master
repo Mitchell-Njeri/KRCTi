@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Tesr.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Tesr.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -16,6 +16,11 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles/Style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  
   
 
@@ -27,8 +32,9 @@
                 <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
+               
                 <asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />
+              
                 <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
                 <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
                 <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
@@ -42,50 +48,279 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="socials collapse navbar-collapse" id="navbarToggleExternalContent">
 
-                    <ul>
-                        <li >
-                            <a href="#"><i class='bx bx-envelope' ></i>General Enquiries:info@krcti.ac.ke</a> |
-                            <a href="#"><i class='bx bx-envelope' ></i>Admissions:admissions@redcross.or.ke</a>
-                            <a href="#"><i class='bx bx-phone' ></i>0705464722 | 0787889533</a>
+        <nav class="navbar  navbar-dark d-none d-lg-block sticky-ul" style="font-size:15px">
+            <div class="info">
+                <div class="navbar-collapse">
+                    <ul style="display:inline-flex; padding-left: 5px; padding-right:5px;">
+                        <li class="nav-item mr-md-1 mr-lg-2">
+                            <a class="nav-link" href="mailto:info@krcti.ac.ke" target="_blank"><i class='bx bx-envelope'></i>General Enquires: <b>info@krcti.ac.ke</b></a>
                         </li>
-                        <li style="margin-right: 20px; margin-inline: 3px;">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-instagram' ></i></a>
-                            <a href="#"><i class='bx bxl-twitter' ></i></a>
-                            <a href="#"><i class='bx bxl-youtube' ></i></a>
-
+                        <li>
+                            <p class="pt-2">|</p>
                         </li>
-                    </ul>
-                </div>
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/"><img src="images/kenya red cross logo.png" /></a>
-                </div>
-                <div class="navbar">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li class="nav-item mr-md-1 mr-lg-2 ">
+                            <a class="nav-link" href="mailto:info@krcti.ac.ke" target="_blank"><i class='bx bx-envelope'></i>Admissions:<b>admissions@redcross.or.ke</b></a>
+                        </li>
+                        <li class="nav-item d-none d-sm-block mx-md-col-lg-1 mx-lg-col-lg-12 ">
+                                <a class="nav-link" href="tel:+254705464722" target="_blank"><i class='bx bx-phone' ></i>0705464722</a>
+                            
+                        </li>
+                        <li class="nav-item d-none d-sm-block ">
+                            <p class="pt-2">|</p>
+                        </li>
+                          <li class="nav-item d-none d-sm-block mx-md-col-lg-1 mx-lg-col-lg-12 ">
+                            
+                                <a class="nav-link" href="tel:+254789889533" target="_blank">0787889533</a>
+                        </li>
+                        <li>
+                            <a style="color: red;" href="https://www.facebook.com/KenyaRedCrossTrainingInstitute"><i class='bx bxl-facebook' ></i></a>
+                        </li>
+                        <li>
+                            <a style="color: red;" href="https://www.instagram.com/krcti_ke"><i class='bx bxl-instagram' ></i></a>
+                        </li>
+                        <li>
+                            <a style="color: red;" href="https://twitter.com/KRCTI_Kenya"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+                        <li>
+                            <a style="color: red;" href="https://www.youtube.com/@KenyaRedCrossTrainingInstitute"><i class='bx bxl-youtube' ></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
-       
+        </nav>
+
+
+
+        <%--<header class="p-3 px-md-4 bg-white shadow-sm sticky-ul">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand my-0 mr-md-auto" href="#">
+                <img src="images/kenya red cross logo.png" class="d-inline-block align-top" alt="" style="width: 220px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMenu" aria-controls="navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerMenu">
+                <ul class="navbar-nav my-2 my-md-0">
+                    
+                  <li class="nav-item p-2">
+                  <a class="text-dark" href="Default">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link p-2 text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Academic Courses <i class="fas fa-angle-down "></i>
+                  </a>
+                  <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./Academic-courses?id=1">Diploma in Paramedicine</a>
+                    <a class="dropdown-item" href="./Academic-courses?id=2">Certificate in Advanced Emergency Medical Technician</a>
+
+                  </div>
+                </li>
+
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdownss" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Short Courses <i class="fas fa-angle-down "></i>
+                    </a>
+                    <div class="dropdown-menu small dropdown" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./Single-course?id=1">Short Medical CPD</a>
+                      <a class="dropdown-item" href="./Single-course?id=4">Pre Hospital</a>
+                      <a class="dropdown-item" href="./Single-course?id=2">Occupational Health &amp; Safety</a>
+                      
+                      <a class="dropdown-item" href="./Single-course?id=5">Program Management</a>
+                      
+
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdowns" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Resources <i class="fas fa-angle-down "></i>
+                    </a>
+                    <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="pdfs/2023 KRCTI REGULAR COURSES CALENDAR.pdf" target="_blank">2023 REGULAR COURSES CALENDAR</a>
+                      <a class="dropdown-item" href="pdfs/2023 KRCTI Management Courses Calendar.pdf" target="_blank">2023 MANAGEMENT COURSES CALENDAR</a>
+                      <a class="dropdown-item" href="pdfs/2023 Course Prospectus.pdf" target="_blank">2023 Course Prospectus</a>
+                      <a class="dropdown-item" href="pdfs/2023 Graduation Memo.pdf" target="_blank">2023 Graduation Memo</a>
+                      <a class="dropdown-item" href="pdfs/KRCTI 2023 GRADUATION LIST FINAL V2.pdf" target="_blank">2023 FINAL GRADUATION LIST V2</a>
+                      <a class="dropdown-item" href="pdfs/2023 Gown collection & Rehersal Memo KRCTI.pdf" target="_blank">2023 Gown collection & Rehersal Memo</a>
+                      <a class="dropdown-item" href="pdfs/KRCTI Booking & Cancelletation Policy.pdf" target="_blank">Booking & Cancelletation Policy</a>
+  
+                    </div>
+                  </li>
+
+                <li class="nav-item p-2">
+                  <a class="text-dark" href="About">About Us</a>
+                </li>
+
+                
+                <li class="nav-item p-2">
+                  <a class=" text-dark" href="Contacts">Contact</a>
+                </li>
+              
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+--%>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <%--<header class="p-3 px-md-4 bg-white shadow-sm sticky-ul ">
+
+          <div class="navbar navbar-expand-lg flex-nowrap navbar-light ">
+            <div class="container">
+
+              <a class="navbar-brand my-0 mr-md-auto" href="#">
+                <img src="images/kenya red cross logo.png" class="d-inline-block align-top" alt="" style="width: 220px;" />
+              </a>
+              <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerMenu" aria-controls="#navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerMenu">
+
+              <ul class="navbar-nav my-2 my-md-0">
+                  <li class="nav-item p-2">
+                  <a class="text-dark" href="Default">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link p-2 text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Academic Courses <i class="fas fa-angle-down "></i>
+                  </a>
+                  <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./Academic-courses?id=1">Diploma in Paramedicine</a>
+                    <a class="dropdown-item" href="./Academic-courses?id=2">Certificate in Advanced Emergency Medical Technician</a>
+
+                  </div>
+                </li>
+
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Short Courses <i class="fas fa-angle-down "></i>
+                    </a>
+                    <div class="dropdown-menu small dropdown" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./Single-course?id=1">Short Medical CPD</a>
+                      <a class="dropdown-item" href="./Single-course?id=4">Pre Hospital</a>
+                      <a class="dropdown-item" href="./Single-course?id=2">Occupational Health &amp; Safety</a>
+                      
+                      <a class="dropdown-item" href="./Single-course?id=5">Program Management</a>
+                      
+
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Resources <i class="fas fa-angle-down "></i>
+                    </a>
+                    <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="pdfs/2023 KRCTI REGULAR COURSES CALENDAR.pdf" target="_blank">2023 REGULAR COURSES CALENDAR</a>
+                      <a class="dropdown-item" href="pdfs/2023 KRCTI Management Courses Calendar.pdf" target="_blank">2023 MANAGEMENT COURSES CALENDAR</a>
+                      <a class="dropdown-item" href="pdfs/2023 Course Prospectus.pdf" target="_blank">2023 Course Prospectus</a>
+                      <a class="dropdown-item" href="pdfs/2023 Graduation Memo.pdf" target="_blank">2023 Graduation Memo</a>
+                      <a class="dropdown-item" href="pdfs/KRCTI 2023 GRADUATION LIST FINAL V2.pdf" target="_blank">2023 FINAL GRADUATION LIST V2</a>
+                      <a class="dropdown-item" href="pdfs/2023 Gown collection & Rehersal Memo KRCTI.pdf" target="_blank">2023 Gown collection & Rehersal Memo</a>
+                      <a class="dropdown-item" href="pdfs/KRCTI Booking & Cancelletation Policy.pdf" target="_blank">Booking & Cancelletation Policy</a>
+  
+                    </div>
+                  </li>
+
+                <li class="nav-item p-2">
+                  <a class="text-dark" href="About">About Us</a>
+                </li>
+
+                
+                <li class="nav-item p-2">
+                  <a class=" text-dark" href="Contacts">Contact</a>
+                </li>
+              
+                </ul>
+            
+            </div>
+        
+        
+          </div>
+      
+        
+        
+      </div>
+    </header>
+       --%>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                  <p>&copy; 2023 Your Company. All rights reserved.</p>
+  <p>Contact us: email@example.com | Phone: 123-456-7890</p>
+
+  <!-- Add links to important pages -->
+  <nav>
+      <ul>
+          <li>
+              <a href="/">Home</a>
+              <a href="/about">About Us</a>
+              <a href="/services">Services</a>
+              <a href="/contact">Contact</a>
+          </li>
+      </ul>
+  </nav>
             </footer>
         </div>
 
     </form>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

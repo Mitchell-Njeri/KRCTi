@@ -1,18 +1,9 @@
 ﻿body {
 
 }
-.navbar-collapse{
-    width: 100%;
-    height: 25px;
-}
-.socials ul{
-    list-style: none;
-    display: flex;
-}
-socials ul li{
-    display: inline;
-    padding: 5px;
-    margin:4px;
+ul li{
+    list-style:none;
+    
 
 }
 .cards{
@@ -47,4 +38,26 @@ h2 {
 
     .visitor-count p:first-child {
         margin-bottom: 5px;
+    }
+
+.submit-button {
+    background-color: #8e4d90; /* Your desired background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Add more styling as needed */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
     }
