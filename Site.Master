@@ -152,7 +152,7 @@
 
 
                             <li class="nav-item p-2">
-                                <a class=" text-dark" href="Contacts">Contact</a>
+                                <a class=" text-dark" href="Contact">Contact</a>
                             </li>
 
 
@@ -250,22 +250,7 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
-                  <p>&copy; 2023 Your Company. All rights reserved.</p>
-  <p>Contact us: email@example.com | Phone: 123-456-7890</p>
-
-  <!-- Add links to important pages -->
-  <nav>
-      <ul>
-          <li>
-              <a href="/">Home</a>
-              <a href="/about">About Us</a>
-              <a href="/services">Services</a>
-              <a href="/contact">Contact</a>
-          </li>
-      </ul>
-  </nav>
-            </footer>
+         
         </div>
 
     </form>
