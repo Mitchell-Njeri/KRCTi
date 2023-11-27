@@ -92,125 +92,75 @@
 
 
 
-        <%--<header class="p-3 px-md-4 bg-white shadow-sm sticky-ul">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand my-0 mr-md-auto" href="#">
-                <img src="images/kenya red cross logo.png" class="d-inline-block align-top" alt="" style="width: 220px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMenu" aria-controls="navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerMenu">
-                <ul class="navbar-nav my-2 my-md-0">
-                    
-                  <li class="nav-item p-2">
-                  <a class="text-dark" href="Default">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link p-2 text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Academic Courses <i class="fas fa-angle-down "></i>
-                  </a>
-                  <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./Academic-courses?id=1">Diploma in Paramedicine</a>
-                    <a class="dropdown-item" href="./Academic-courses?id=2">Certificate in Advanced Emergency Medical Technician</a>
-
-                  </div>
-                </li>
-
-                
-                <li class="nav-item dropdown">
-                    <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdownss" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Short Courses <i class="fas fa-angle-down "></i>
+        <header class="p-3 px-md-4 bg-white shadow-sm sticky-ul">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand my-0 mr-md-auto" href="#">
+                        <img src="images/kenya red cross logo.png" class="d-inline-block align-top" alt="" style="width: 220px;">
                     </a>
-                    <div class="dropdown-menu small dropdown" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./Single-course?id=1">Short Medical CPD</a>
-                      <a class="dropdown-item" href="./Single-course?id=4">Pre Hospital</a>
-                      <a class="dropdown-item" href="./Single-course?id=2">Occupational Health &amp; Safety</a>
-                      
-                      <a class="dropdown-item" href="./Single-course?id=5">Program Management</a>
-                      
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMenu" aria-controls="navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerMenu">
+                        <ul class="navbar-nav my-2 my-md-0">
 
+                            <li class="nav-item p-2">
+                                <a class="text-dark" href="Default">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link p-2 text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academic Courses <i class="fas fa-angle-down "></i>
+                                </a>
+                                <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="./Academic-courses?id=1">Diploma in Paramedicine</a>
+                                    <a class="dropdown-item" href="./Academic-courses?id=2">Certificate in Advanced Emergency Medical Technician</a>
+
+                                </div>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdownss" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Short Courses <i class="fas fa-angle-down "></i>
+                                </a>
+                                <div class="dropdown-menu small dropdown" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="./Single-course?id=1">Short Medical CPD</a>
+                                    <a class="dropdown-item" href="./Single-course?id=4">Pre Hospital</a>
+                                    <a class="dropdown-item" href="./Single-course?id=2">Occupational Health &amp; Safety</a>
+
+                                    <a class="dropdown-item" href="./Single-course?id=5">Program Management</a>
+
+
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdowns" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources <i class="fas fa-angle-down "></i>
+                                </a>
+                                <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="pdfs/2023 KRCTI REGULAR COURSES CALENDAR.pdf" target="_blank">2023 REGULAR COURSES CALENDAR</a>
+                                    <a class="dropdown-item" href="pdfs/2023 KRCTI Management Courses Calendar.pdf" target="_blank">2023 MANAGEMENT COURSES CALENDAR</a>
+                                    <a class="dropdown-item" href="pdfs/2023 Course Prospectus.pdf" target="_blank">2023 Course Prospectus</a>
+                                    <a class="dropdown-item" href="pdfs/2023 Graduation Memo.pdf" target="_blank">2023 Graduation Memo</a>
+                                    <a class="dropdown-item" href="pdfs/KRCTI 2023 GRADUATION LIST FINAL V2.pdf" target="_blank">2023 FINAL GRADUATION LIST V2</a>
+                                    <a class="dropdown-item" href="pdfs/2023 Gown collection & Rehersal Memo KRCTI.pdf" target="_blank">2023 Gown collection & Rehersal Memo</a>
+                                    <a class="dropdown-item" href="pdfs/KRCTI Booking & Cancelletation Policy.pdf" target="_blank">Booking & Cancelletation Policy</a>
+
+                                </div>
+                            </li>
+
+                            <li class="nav-item p-2">
+                                <a class="text-dark" href="About">About Us</a>
+                            </li>
+
+
+                            <li class="nav-item p-2">
+                                <a class=" text-dark" href="Contacts">Contact</a>
+                            </li>
+
+
+                        </ul>
                     </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdowns" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Resources <i class="fas fa-angle-down "></i>
-                    </a>
-                    <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="pdfs/2023 KRCTI REGULAR COURSES CALENDAR.pdf" target="_blank">2023 REGULAR COURSES CALENDAR</a>
-                      <a class="dropdown-item" href="pdfs/2023 KRCTI Management Courses Calendar.pdf" target="_blank">2023 MANAGEMENT COURSES CALENDAR</a>
-                      <a class="dropdown-item" href="pdfs/2023 Course Prospectus.pdf" target="_blank">2023 Course Prospectus</a>
-                      <a class="dropdown-item" href="pdfs/2023 Graduation Memo.pdf" target="_blank">2023 Graduation Memo</a>
-                      <a class="dropdown-item" href="pdfs/KRCTI 2023 GRADUATION LIST FINAL V2.pdf" target="_blank">2023 FINAL GRADUATION LIST V2</a>
-                      <a class="dropdown-item" href="pdfs/2023 Gown collection & Rehersal Memo KRCTI.pdf" target="_blank">2023 Gown collection & Rehersal Memo</a>
-                      <a class="dropdown-item" href="pdfs/KRCTI Booking & Cancelletation Policy.pdf" target="_blank">Booking & Cancelletation Policy</a>
-  
-                    </div>
-                  </li>
-
-                <li class="nav-item p-2">
-                  <a class="text-dark" href="About">About Us</a>
-                </li>
-
-                
-                <li class="nav-item p-2">
-                  <a class=" text-dark" href="Contacts">Contact</a>
-                </li>
-              
-
-                </ul>
+                </nav>
             </div>
-        </nav>
-    </div>
-</header>
---%>
-
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-</nav>
-
-
-
-
-
-
-
-
-
-
+        </header>
 
 
 
