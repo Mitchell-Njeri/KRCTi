@@ -163,93 +163,91 @@
         </header>
 
 
-
-
-         <%--<header class="p-3 px-md-4 bg-white shadow-sm sticky-ul ">
-
-          <div class="navbar navbar-expand-lg flex-nowrap navbar-light ">
-            <div class="container">
-
-              <a class="navbar-brand my-0 mr-md-auto" href="#">
-                <img src="images/kenya red cross logo.png" class="d-inline-block align-top" alt="" style="width: 220px;" />
-              </a>
-              <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerMenu" aria-controls="#navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-          
-            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerMenu">
-
-              <ul class="navbar-nav my-2 my-md-0">
-                  <li class="nav-item p-2">
-                  <a class="text-dark" href="Default">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link p-2 text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Academic Courses <i class="fas fa-angle-down "></i>
-                  </a>
-                  <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./Academic-courses?id=1">Diploma in Paramedicine</a>
-                    <a class="dropdown-item" href="./Academic-courses?id=2">Certificate in Advanced Emergency Medical Technician</a>
-
-                  </div>
-                </li>
-
-                
-                <li class="nav-item dropdown">
-                    <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Short Courses <i class="fas fa-angle-down "></i>
-                    </a>
-                    <div class="dropdown-menu small dropdown" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="./Single-course?id=1">Short Medical CPD</a>
-                      <a class="dropdown-item" href="./Single-course?id=4">Pre Hospital</a>
-                      <a class="dropdown-item" href="./Single-course?id=2">Occupational Health &amp; Safety</a>
-                      
-                      <a class="dropdown-item" href="./Single-course?id=5">Program Management</a>
-                      
-
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link p-2 text-dark" href="Courses" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Resources <i class="fas fa-angle-down "></i>
-                    </a>
-                    <div class="dropdown-menu small" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="pdfs/2023 KRCTI REGULAR COURSES CALENDAR.pdf" target="_blank">2023 REGULAR COURSES CALENDAR</a>
-                      <a class="dropdown-item" href="pdfs/2023 KRCTI Management Courses Calendar.pdf" target="_blank">2023 MANAGEMENT COURSES CALENDAR</a>
-                      <a class="dropdown-item" href="pdfs/2023 Course Prospectus.pdf" target="_blank">2023 Course Prospectus</a>
-                      <a class="dropdown-item" href="pdfs/2023 Graduation Memo.pdf" target="_blank">2023 Graduation Memo</a>
-                      <a class="dropdown-item" href="pdfs/KRCTI 2023 GRADUATION LIST FINAL V2.pdf" target="_blank">2023 FINAL GRADUATION LIST V2</a>
-                      <a class="dropdown-item" href="pdfs/2023 Gown collection & Rehersal Memo KRCTI.pdf" target="_blank">2023 Gown collection & Rehersal Memo</a>
-                      <a class="dropdown-item" href="pdfs/KRCTI Booking & Cancelletation Policy.pdf" target="_blank">Booking & Cancelletation Policy</a>
-  
-                    </div>
-                  </li>
-
-                <li class="nav-item p-2">
-                  <a class="text-dark" href="About">About Us</a>
-                </li>
-
-                
-                <li class="nav-item p-2">
-                  <a class=" text-dark" href="Contacts">Contact</a>
-                </li>
-              
-                </ul>
-            
-            </div>
-        
-        
-          </div>
-      
-        
-        
-      </div>
-    </header>
-       --%>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <footer class="font-weight-light text-white-55 pt-5 pb-5 overflow-hidden">
+                    <div class="container">
+                        <div class="row justify-content-md-between">
+                            <div class="col-md-12 col-lg-4 mb-4 mr-lg-auto">
+                                <img class="mb-3" src="images/redcrosslogo.png" alt="Docs UI Kit" style="width: 220px;" />
+                                <p class="small font-weight-light mb-3">The Kenya Red Cross Training Institute is committed to empowering individuals and institutions with skills for <strong>Emergency Prepardeness</strong> and <strong>Response</strong></p>
+                            </div>
+
+                            <div class="col-sm-4 col-lg-2 mb-4">
+                                <h4 class="h6 mb-3">Company</h4>
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><a class="text-muted" href="About">About Us</a></li>
+                                    <li class="mb-3"><a class="text-muted" href="Courses">Courses</a></li>
+                                    <li class="mb-3"><a class="text-muted" href="Contacts">Contacts</a></li>
+                                </ul>
+                                <!-- End Links -->
+                            </div>
+
+                            <div class="col-sm-4 col-lg-2 mb-4">
+                                <h4 class="h6 mb-3">Resources</h4>
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><a class="text-muted" href="#">Terms</a></li>
+                                    <li class="mb-3"><a class="text-muted" href="gallery">Gallery</a></li>
+                                    <li class="mb-3"><a class="text-muted" href="Faqs">FAQs</a></li>
+                                </ul>
+                                <!-- End Links -->
+                            </div>
+
+                            <div class="col-sm-4 col-lg-2 mb-4">
+                                <h4 class="h6 mb-3">Contacts</h4>
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><a class="text-muted" href="#">info@krcti.ac.ke </a></li>
+                                    <li class="mb-3"><a class="text-muted" href="#">+254 705464722
+                </a></li>
+                                    <li class="mb-3"><a class="text-muted" href="#">+254 787889533
+                </a></li>
+                                </ul>
+                                <!-- End Links -->
+                            </div>
+                        </div>
+
+                        <hr class="my-5" />
+
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p class="small font-weight-light mb-md-0">&copy; 2023 <a class="text-muted" href="https://krti.ac.ke">Kenya Redcross Training Institute</a>.  <a class="text-muted" href="https://krti.ac.ke">International Centre For Humanitarian Affairs</a>.</p>
+                            </div>
+
+                            <div class="col-md-5 text-md-right">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item mx-1 mx-xl-2">
+                                        <a class="link-white-55" target="_blank" href="https://www.facebook.com/KenyaRedCrossTrainingInstitute/">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mx-1 mx-xl-2">
+                                        <a class="link-white-55" target="_blank" href="https://www.instagram.com/krcti_ke/">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mx-1 mx-xl-2">
+                                        <a class="link-white-55" target="_blank" href="https://twitter.com/KRCTI_Kenya">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item ml-1 ml-xl-2">
+                                        <a class="link-white-55" target="_blank" href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </asp:ContentPlaceHolder>
-            <hr />
+            
          
         </div>
 
