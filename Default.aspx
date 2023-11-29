@@ -151,37 +151,37 @@
             <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="800">
                 <div class="carousel-inner row w-100 mx-auto" role="listbox">
                     <div class="carousel-item col-md-3 active">
-                        <img class="img-fluid partners_logo" src="./img/krcs.jpg" alt="slide 1"/>
+                        <img class="img-fluid partners_logo" src="./images/redcrosslogo.png" alt="slide 1"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/ichalogo.jpg" alt="slide 2"/>
+                        <img class="img-fluid partners_logo" src="./images/icha-logo.jpg" alt="slide 2"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/moh.jpg" alt="slide 3"/>
+                        <img class="img-fluid partners_logo" src="./images/mohlogo.png" alt="slide 3"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/eplus.jpg" alt="slide 4"/>
+                        <img class="img-fluid partners_logo" src="./images/epluslogo.jfif" alt="slide 4"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/tvet.jpg" alt="slide 5"/>
+                        <img class="img-fluid partners_logo" src="./images/tvetalogo.png" alt="slide 5"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/nita.jpg" alt="slide 6"/>
+                        <img class="img-fluid partners_logo" src="./images/nitalogo.png" alt="slide 6"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/switchtv.jpg" alt="slide 7"/>
+                        <img class="img-fluid partners_logo" src="./images/switchlogo.jpg" alt="slide 7"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/nrck.jpg" alt="slide 8"/>
+                        <img class="img-fluid partners_logo" src="./images/nrck.jpg" alt="slide 8"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/kmpdc.jpg" alt="slide 9"/>
+                        <img class="img-fluid partners_logo" src="./images/kmpdclogo.jfif" alt="slide 9"/>
                     </div>
                     <div class="carousel-item col-md-3">
                         <img class="img-fluid partners_logo" src="./img/dohs.jpg" alt="slide 9"/>
                     </div>
                     <div class="carousel-item col-md-3">
-                        <img class="img-fluid partners_logo" src="./img/aha.jpg" alt="slide 9"/>
+                        <img class="img-fluid partners_logo" src="./images/americanheartassociation.jpg" alt="slide 9"/>
                     </div>
                     
                 </div>
