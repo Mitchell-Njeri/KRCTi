@@ -278,7 +278,6 @@ footer {
 .sticky-ul {
     position: sticky;
     top: 0; /* Adjust this value as needed */
-    background-color: white; /* Add a background color if desired */
     z-index: 100; /* Ensure it appears above other content */
     /* Add any other styles you want for the sticky element */
     transition: top 1s ease-in-out;

@@ -130,7 +130,9 @@
     <Content Include="Global.asax" />
     <Content Include="images\americanheartassociation.jpg" />
     <Content Include="images\icha-logo.png" />
+    <Content Include="images\kenyaredlogo.png" />
     <Content Include="images\kmpdclogo.jfif" />
+    <Content Include="images\krclogo.jpg" />
     <Content Include="images\medic3.webp" />
     <Content Include="images\medic4.jpg" />
     <Content Include="images\medic5.jpg" />
