@@ -25,14 +25,11 @@
         </div>
       </div>
     <div id="intro-carousel" class="owl-carousel">
-        <!-- <div class="item" style="background-image: url('img/emt.png');"></div> -->
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic6.jpg');"> </div>
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic7.jpg');"> </div>
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic8.jpg');"> </div>
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic1');"> </div>
         <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic2.jpg');"> </div>
-       
-        <div class="item " style="background-repeat: no-repeat;background-image: url('img/3.jpg');"> </div>
-        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic1.jpg');"> </div>
-        <!-- <div class="item " style="background-repeat: no-repeat;background-image: url('img/5.jpg');"> </div> -->
-        <div class="item " style="background-repeat: no-repeat;background-image: url('img/6.jpg');"> </div>
-        <div class="item " style="background-repeat: no-repeat;background-image: url('img/7.jpg');"> </div>
       
       </div>
 
@@ -209,12 +206,14 @@
         </div>
 
     </section>
+
+
   <!-- Footer -->
   <footer class="font-weight-light text-white-55 pt-5 pb-5 overflow-hidden">
       <div class="container">
         <div class="row justify-content-md-between">
           <div class="col-md-12 col-lg-4 mb-4 mr-lg-auto">
-            <img class="mb-3" src="img/logo.png" alt="Docs UI Kit" style="width: 220px;"/>
+            <img class="mb-3" src="images/redcrosslogo.png" alt="Docs UI Kit" style="width: 220px;"/>
             <p class="small font-weight-light mb-3">The Kenya Red Cross Training Institute is committed to empowering individuals and institutions with skills for <strong>Emergency Prepardeness</strong> and <strong>Response</strong></p>
           </div>
   
