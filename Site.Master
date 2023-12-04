@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
 
-    <asp:PlaceHolder runat="server">
+    <asp:PlaceHolder runat="server"> 
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
@@ -51,45 +51,11 @@
           
         </style>
 
-        <nav class="navbar info bg-light d-block align-items-center sticky-ul top-0" style="font-size:15px; ">
-                <div class=" navbar navbar-collapse">
-                    <ul style="list-style:none; display:inline-flex;">
-                        <li class="nav-item" style="display:inline-flex; justify-content:space-between; margin-top:17px;">
-                            <a class="nav-link" href="mailto:info@krcti.ac.ke" target="_blank"><i class='bx bx-envelope'></i>General Enquires: <b>info@krcti.ac.ke</b></a>
-                        
-                            <p class="pt-2">|</p>
-                        
-                        
-                            <a class="nav-link" href="mailto:info@krcti.ac.ke" target="_blank"><i class='bx bx-envelope'></i>Admissions:<b>admissions@redcross.or.ke</b></a>
-                        
-                        
-                                <a class="nav-link" href="tel:+254705464722" target="_blank"><i class='bx bx-phone' ></i>0705464722</a>
-                            <p class="pt-2">|</p>
-                        
-                            
-                                <a class="nav-link" href="tel:+254789889533" target="_blank">0787889533</a>
-                        </li>
-                        <li style="margin-top:19px; justify-content:space-between;">
-                            <a style="color: red; " href="https://www.facebook.com/KenyaRedCrossTrainingInstitute"><i class='bx bxl-facebook' ></i></a>
-                        
-                        
-                            <a style="color: red;" href="https://www.instagram.com/krcti_ke"><i class='bx bxl-instagram' ></i></a>
-                        
-                            <a style="color: red;" href="https://twitter.com/KRCTI_Kenya"><i class='bx bxl-twitter' ></i></a>
-                        
-                            <a style="color: red;" href="https://www.youtube.com/@KenyaRedCrossTrainingInstitute"><i class='bx bxl-youtube' ></i></a>
-                        </li>
-                    </ul>
-                </div>
-        </nav>
-
-
-
-        <header class="p-3 px-md-4 bg-white shadow-sm sticky-ul">
+        <header class=" md-4 bg-white shadow-sm sticky-ul">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand my-0 mr-md-auto" href="#">
-                        <img src="images/kenyaredlogo.png" class="d-inline-block align-top" alt="" style="width: 250px;  margin-left:20px;">
+                        <img src="images/kenyaredlogo.png" class="d-inline-block align-top" alt="" style="width: 250px;   margin-left:20px;">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMenu" aria-controls="navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
