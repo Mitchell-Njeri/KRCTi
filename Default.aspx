@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <div class="home-hero " style=" padding-bottom: 40px;">
+    <div class="home-hero " style=" padding-bottom: 130px;">
       <div class="container hero-content d-flex align-items-center">
         <div class="row align-items-center ">
           <div class="col-lg-6 hero-cta">
@@ -33,21 +33,37 @@
 
         </div>
       </div>
-<<<<<<< HEAD
-    
-=======
-    <div id="intro-carousel" class="owl-carousel">
-        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic6.jpg');"> </div>
-        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic7.jpg');"> </div>
-        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic8.jpg');"> </div>
-        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic1');"> </div>
-        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic2.jpg');"> </div>
-      
-      </div>
->>>>>>> fb11e577a519fce2bb950d976ef541db78af2131
-
     </div>
-    <section class="course-category">
+
+
+    <div class="row " style="padding-bottom: 50px;">
+        <div class="col-lg-6">
+            
+                <img src="images/medic6.jpg" style = " padding: 5px;   width: 180px; height: 120px; " alt=""/>
+          
+                 <img src="images/medic2.jpg" style = " padding: 5px;  width: 300px; height: 180px; " alt=""/>
+
+            <br />
+            
+                <img src="images/medic6.jpg" style = " padding: 5px;   width: 300px; height: 180px; " alt=""/>
+          
+                 <img src="images/medic2.jpg" style = " padding: 5px;  width: 180px; height: 120px; " alt=""/>
+        </div>
+         <div class="col-lg-6">
+             <p>
+                 The bustling school hums with vibrant energy as students traverse corridors adorned with colorful displays.
+                 <br />
+                 In classrooms, curiosity thrives, nurtured by dedicated educators fostering learning and growth every day.
+                 The bustling school hums with vibrant energy as students traverse corridors adorned with colorful displays.
+                 <br />
+                 In classrooms, curiosity thrives, nurtured by dedicated educators fostering learning and growth every day.
+             </p>
+             <a class="btn btn-lg btn-danger" style="position: relative;" href="./Courses">Contact Us</a> 
+        </div>
+    </div>
+
+
+    <section class="course-category" style="padding-bottom:20px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center mb-4">
@@ -60,29 +76,78 @@
           </div>
         </div>
         <div class="row justify-content-center mt-5">
-          <div class="col-lg-4 col-sm-6 mb-4"><div class="card shadow border-0 h-100"><a href="Single-course?id=1" class="card-body"><div class="pb-4"><i class="fas fa-notes-medical fa-3x text-primary"></i></div><div class="pt-2 pb-3"><h5 class="text-dark">Short Medical CPD</h5><p class="text-muted mb-0">5 programmes</p></div></a></div></div><div class="col-lg-4 col-sm-6 mb-4"><div class="card shadow border-0 h-100"><a href="Single-course?id=2" class="card-body"><div class="pb-4"><i class="fas fa-tasks fa-3x text-primary"></i></div><div class="pt-2 pb-3"><h5 class="text-dark">Occupational Health & Safety Courses </h5><p class="text-muted mb-0">5 programmes</p></div></a></div></div><div class="col-lg-4 col-sm-6 mb-4"><div class="card shadow border-0 h-100"><a href="Single-course?id=4" class="card-body"><div class="pb-4"><i class="fas fa-user-md fa-3x text-primary"></i></div><div class="pt-2 pb-3"><h5 class="text-dark">Pre Hospital Course</h5><p class="text-muted mb-0">2 programmes</p></div></a></div></div><div class="col-lg-4 col-sm-6 mb-4"><div class="card shadow border-0 h-100"><a href="Single-course?id=5" class="card-body"><div class="pb-4"><i class="fas fa-house-damage fa-3x text-primary"></i></div><div class="pt-2 pb-3"><h5 class="text-dark">Program Management courses</h5><p class="text-muted mb-0">11 programmes</p></div></a></div></div>
-            
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card shadow border-0 h-100">
+                    <h3 class="align-items-center" style="background-color: red; color: white; border-radius: 50%; width: 40px; height: 40px; align-content: center; padding: 6px">1</h3>
+
+                    <a href="Single-course?id=1" class="card-body">
+                        <div class="pb-4">
+                            <%--<h3 class="align-items-center" style="background-color: red; color: white; border-radius: 50%; width: 40px; height: 40px; align-content: center; padding: 6px">1</h3>--%>
+                        </div>
+                    <div class="pt-2 pb-3">
+                        <h5 class="text-dark">Short Medical CPD</h5>
+                        <p class="text-muted mb-0">5 programmes</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card shadow border-0 h-100"><a href="Single-course?id=2" class="card-body">
+                    <div class="pb-4"><i class="fas fa-tasks fa-3x text-primary"></i></div>
+                    <div class="pt-2 pb-3">
+                        <h5 class="text-dark">Occupational Health & Safety Courses </h5>
+                        <p class="text-muted mb-0">5 programmes</p>
+                    </div>
+                </a></div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card shadow border-0 h-100"><a href="Single-course?id=4" class="card-body">
+                    <div class="pb-4"><i class="fas fa-user-md fa-3x text-primary"></i></div>
+                    <div class="pt-2 pb-3">
+                        <h5 class="text-dark">Pre Hospital Course</h5>
+                        <p class="text-muted mb-0">2 programmes</p>
+                    </div>
+                </a></div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card shadow border-0 h-100"><a href="Single-course?id=5" class="card-body">
+                    <div class="pb-4"><i class="fas fa-house-damage fa-3x text-primary"></i></div>
+                    <div class="pt-2 pb-3">
+                        <h5 class="text-dark">Program Management courses</h5>
+                        <p class="text-muted mb-0">11 programmes</p>
+                    </div>
+                </a></div>
+            </div>
+           
+            <div class="row justify-content-center">
+              <div class="col-lg-6 text-muted text-center justify-content-center">
+                  <a class="btn btn-lg btn-danger" style="position: relative; padding-top: 10px;" href="./Courses">Enrol Now</a>
+              </div>
+          </div>
       </div>
-      
+          
+
     </div>
     </section>
-    <section class="cta img-overlay mb-5">
+
+
+
+    <section class="cta  mb-5">
       <div class="container">
-        <div class="row mb-4">
-            <div class="col-lg-12 text-center">        
-              <h2 class="display-4">Get Started <span class="text-primary">Today</span></h2>
-            </div>
-            
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-muted text-center justify-content-center">
-              <p class="text-dark mb-4">Learn a skill to save a LIFE</p>
-              <a class=" btn btn-lg btn-primary" href="Enroll">Enroll Now</a>
+          <div class="col-lg-3 col-sm-6 mb-4">
+              <div style="border-right:16px;" class="card shadow border-0 h-100">
+                  <a href="Single-course?id=2" class="card-body">
+                      <div class="pb-4"><i class="fas fa-tasks fa-3x text-primary"></i></div>
+                      <div class="pt-2 pb-3">
+                          <h5 style="color: white;">5000 Learners </h5>
+                          
+                      </div>
+                  </a>
+              </div>
           </div>
-        </div>
       </div>
       
-        
+       
     </section>
     <section class="featured-courses">
       <div class="container mb-5">
