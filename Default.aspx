@@ -33,7 +33,18 @@
 
         </div>
       </div>
+<<<<<<< HEAD
     
+=======
+    <div id="intro-carousel" class="owl-carousel">
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic6.jpg');"> </div>
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic7.jpg');"> </div>
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic8.jpg');"> </div>
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic1');"> </div>
+        <div class="item " style="background-repeat: no-repeat;background-image: url('images/medic2.jpg');"> </div>
+      
+      </div>
+>>>>>>> fb11e577a519fce2bb950d976ef541db78af2131
 
     </div>
     <section class="course-category">
