@@ -1,4 +1,9 @@
-﻿home-hero {
+﻿body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+home-hero {
     padding: 10px;
 }
 

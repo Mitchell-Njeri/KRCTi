@@ -1,12 +1,13 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Tesr._Default" %>
+﻿
+<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Tesr._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <%--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">--%>
+  <%--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">--%>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <%--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>--%>
 
     <div class="home-hero " style=" padding-bottom: 130px;">
       <div class="container hero-content d-flex align-items-center">
@@ -16,8 +17,8 @@
 
             <p>We are a leading institution in Management programmes; Emergency, Disaster, Leadership  and short medical courses.</p>
               <br />
-            <div class="d-flex align-items-center flex-wrap">
-              <a class="btn btn-lg btn-danger" href="./Courses">Get Started</a> 
+            <div class="d-flex align-items-center flex-wrap ">
+              <a style="margin:35px;" class="btn btn-lg btn-danger" href="./Courses">Get Started</a> 
               <a class="btn btn-lg btn-outline-danger ml-3" href="https://www.youtube.com/watch?v=-tN4989SC5Q&t">News</a>  
             </div>
             
@@ -121,7 +122,7 @@
            
             <div class="row justify-content-center">
               <div class="col-lg-6 text-muted text-center justify-content-center">
-                  <a class="btn btn-lg btn-danger" style="position: relative; padding-top: 10px;" href="./Courses">Enrol Now</a>
+                  <a class="btn btn-lg btn-danger" style="position: relative; margin-top: 17px; padding-top: 10px;"  href="./Courses">Enrol Now</a>
               </div>
           </div>
       </div>
@@ -132,23 +133,57 @@
 
 
 
-    <section class="cta  mb-5">
+    <section class="cta  mb-5" style="padding:35px; background-color:#f7e6ea;">
       <div class="container">
-          <div class="col-lg-3 col-sm-6 mb-4">
-              <div style="border-right:16px;" class="card shadow border-0 h-100">
-                  <a href="Single-course?id=2" class="card-body">
-                      <div class="pb-4"><i class="fas fa-tasks fa-3x text-primary"></i></div>
+          <div class="row">
+              <div class="col-lg-3 col-sm-6 mb-4">
+                  <div class="card shadow " style="color: white; width: 170px;  height: 150px; border-start-end-radius: 16px; border-start-start-radius: 16px; border-end-end-radius: 50%; border-end-start-radius: 16px;  background-color: red;">
                       <div class="pt-2 pb-3">
-                          <h5 style="color: white;">5000 Learners </h5>
-                          
+                          <h5 style="color: white; padding: 25px;">5000 Learners </h5>
+
                       </div>
-                  </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-4">
+                  <div class="card shadow " style="color: white; width: 170px; height: 150px; border-start-end-radius: 16px; border-start-start-radius: 16px; border-end-end-radius: 50%; border-end-start-radius: 16px;  background-color: red;">
+                      <div class="pt-2 pb-3">
+                          <h5 style="color: white; padding: 25px;">6000 Graduates</h5>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-4">
+                  <div class="card shadow " style="color: white; width: 170px;  height: 150px; border-start-end-radius: 16px; border-start-start-radius: 16px; border-end-end-radius: 50%; border-end-start-radius: 16px;  background-color: red;">
+                      <div class="pt-2 pb-3">
+                          <h5 style="color: white; padding: 25px;">38 Countries Reached </h5>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-4">
+                  <div class="card shadow " style="color: white; width: 170px;  height: 150px; border-start-end-radius: 16px; border-start-start-radius: 16px; border-end-end-radius: 50%; border-end-start-radius: 16px;  background-color: red;">
+                      <div class="pt-2 pb-3">
+                          <h5 style="color: white; padding: 25px;">95 Courses Published </h5>
+
+                      </div>
+                  </div>
               </div>
           </div>
-      </div>
-      
+          </div>
        
     </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="featured-courses">
       <div class="container mb-5">
         <div class="row mb-4">
